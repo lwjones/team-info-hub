@@ -1,0 +1,25 @@
+{
+  "name": "team-info-hub",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate a webpage of your team's info",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwjones/team-info-hub.git"
+  },
+  "author": "Lawrence Jones",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/lwjones/team-info-hub/issues"
+  },
+  "homepage": "https://github.com/lwjones/team-info-hub#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
