@@ -6,14 +6,14 @@ const Intern = require("./lib/Intern");
 const PromptManager = require("./lib/PromptManager");
 
 
-function init() {
+async function init() {
+  const prompt = new PromptManager();
 
   console.log("TEAM DASHBOARD GENERATOR\n");
   console.log("Start with the team manager.")
 
-  const prompt = new PromptManager();
   prompt.initializePrompts();
-
+  console.log(prompt.getEmployees());
 };
 
 
